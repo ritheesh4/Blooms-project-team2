@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+.real-bg-container {
+    background-image: url("img/ghtapass.PNG");
+    width: 1440px;
+    height: 1024px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+
+}
+
+.real-bg-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.real-logo li {
+    text-decoration: none;
+    list-style-type: none;
+    width: 102px;
+    height: 44px;
+    left: 73px;
+    top: 51px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #F7FFF7;
+}
+
+.real-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.real-list li {
+    padding: 10px 30px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.real-list li:hover {
+    border-radius: 5px;
+}
