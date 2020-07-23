@@ -3,17 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Project Listing</title>
   </head>
   <body>
-    <title>PROJECT LISTING</title>
+    <div class="page-title">PROJECT LISTING</div>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>Location</li>
-        <li>Project Model</li>
-        <li>Status</li>
-      </ul>
+      <div class="nav-options">
+        <div
+          style="display: flex; align-items: center; justify-content: center;"
+        >
+          <a href="#" class="home-btn" id="home">Home</a>
+        </div>
+        <div>
+          <ul class="filters">
+            <li class="location-btn" id="location">
+              <div class="location-icon">
+                <svg
+                  width="22"
+                  height="21"
+                  viewBox="0 0 22 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.9677 0H1.03245C0.116441 0 -0.345774 1.02549 0.303269 1.62435L8.24999 8.95772V17.1272C8.24999 17.4377 8.41418 17.7286 8.68986 17.9067L12.1274 20.1261C12.8055 20.5641 13.75 20.1202 13.75 19.3466V8.95772L21.6969 1.62435C22.3446 1.02668 21.8856 0 20.9677 0Z"
+                    fill="#2D6A4F"
+                  />
+                </svg>
+              </div>
+              Location
+            </li>
+            <li>Project Model</li>
+            <li>Status</li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <main>
       <div class="card">

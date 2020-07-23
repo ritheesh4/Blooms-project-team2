@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* li {
+  list-style-type: none;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.02em;
+  color: #2d6a4f;
+  text-align: center;
+  margin-top: 86px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  max-width: 656px;
+  margin-left: 40px;
+}
+
+.nav-options {
+  display: flex;
+  margin-top: 31px;
+}
+
+.filters {
+  display: flex;
+  max-width: 554px;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.filters li {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #2d6a4f;
+  padding-right: 80px;
+}
+
+.home-btn {
+  max-width: 71px;
+  height: 29px;
+  top: 180px;
+  margin-right: 31px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  color: #2d6a4f;
+}
+
+.location-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.location-icon {
+  margin-right: 25px;
+  display: flex;
+}
+
+.card {
+  display: none;
+  max-width: 364px;
+  max-height: 633px;
+  background-color: #ffffff;
+  box-shadow: 0 1.8px 1.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 1.3px rgba(0, 0, 0, 0.048), 0 1.5px 1px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072), 0 4.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12);
+}
