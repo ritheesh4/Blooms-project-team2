@@ -16,8 +16,6 @@ body{
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
-
-
 }
 
 .real-bg-text{
@@ -88,7 +86,6 @@ body{
     text-transform: uppercase;
     color: #fff;
     margin-right: 0px;
-
 }
 
 .real-small-para {
@@ -102,13 +99,11 @@ body{
     font-size: 24px;
     line-height: 29px;
     color: #F7FFF7;
-
 }
 
 .real-video-conatiner{
     display: flex;
     align-items: center;
-
 }
 
 .real-image-video img {
@@ -128,7 +123,6 @@ body{
     position: absolute;
     left: 140px;
     bottom: 120px;
-
 }
 
 .round-button {
@@ -167,13 +161,10 @@ body{
     justify-content: center;
     opacity: 0.6;
     border-radius: 3px;
-    /* transform: rotate(-180deg); */
 }
 
 .real-forest-toor{
     padding: 90px 100px 80px 100px;
-
-
 }
 
 .real-video-image img {
@@ -219,7 +210,6 @@ body{
     right: 570px;
     /* top: 30.5%; */
     bottom: 380px
-
 }
 
 .real-top-properties {
@@ -230,9 +220,7 @@ body{
     font-size: 48px;
     line-height: 58px;
     /* identical to box height */
-
     letter-spacing: 0.02em;
-
     color: #2D6A4F;
     text-align: center;
 }
@@ -243,12 +231,9 @@ body{
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
-
     height: 29px;
     /* identical to box height */
-
     letter-spacing: 0.02em;
-
     color: #2D6A4F;
     text-align: center;
     position: relative;
@@ -274,16 +259,13 @@ body{
     height: 58px;
     left: 135px;
     top: 3459px;
-
     font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
     line-height: 58px;
     /* identical to box height */
-
     letter-spacing: 0.02em;
-
     color: #2D6A4F;
 }
 
@@ -292,13 +274,11 @@ body{
     height: 255px;
     left: 135px;
     top: 3532px;
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 29px;
-
     color: #2D6A4F;
 }
 
@@ -315,7 +295,6 @@ body{
     justify-content: space-around;
     width: 1300px;
     height: 1024px;
-
 }
 
 .real-footer{
@@ -344,12 +323,10 @@ body{
 .real-footer{
     padding-top: 90px;
     height: 700px;
-
 }
 
 .real-foot-logo{
     padding-bottom: 90px;
-
 }
 
 .real-foot-logo p{
@@ -361,7 +338,6 @@ body{
     line-height: 58px;
     letter-spacing: 0.02em;
     color: #E5E5E5;
-
 }
 
 .real-meet , .real-write, .real-watsapp , .real-talk{
@@ -369,7 +345,6 @@ body{
     height: 44px;
     left: 647px;
     top: 4696px;
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -377,7 +352,6 @@ body{
     line-height: 22px;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #E5E5E5;
 }
 
@@ -385,15 +359,12 @@ body{
     padding-top: 80px;
     /* width: 391px; */
     height: 22px;
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #E5E5E5;
 }
