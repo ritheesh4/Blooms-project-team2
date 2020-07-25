@@ -198,7 +198,8 @@ main {
     flex-direction: column;
     align-items: center;
 }
-.real-estate-inner-p {
+.real-estate-inner-a {
+    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -243,7 +244,8 @@ main {
     align-items: center;
     justify-content: center;
 }
-.resorts-inner-p {
+.resorts-inner-a {
+    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -270,7 +272,8 @@ main {
     align-items: center;
     justify-content: center;
 }
-.organics-inner-p {
+.organics-inner-a {
+    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -298,7 +301,8 @@ main {
     align-items: center;
     justify-content: center;
 }
-.homemade-inner-p {
+.homemade-inner-a {
+    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -326,7 +330,8 @@ main {
     align-items: center;
     justify-content: center;
 }
-.kennels-inner-p {
+.kennels-inner-a {
+    text-decoration: none;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -410,9 +415,9 @@ main {
     /* background-color: purple; */
     height: 650px;
 }
-.footer-container-secondary {
-    /* background-color: blue; */
-}
+/* .footer-container-secondary {
+    background-color: blue;
+} */
 .footer-logo-div {
     width: 141px;
     height: 58px;
