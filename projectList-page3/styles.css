@@ -214,3 +214,8 @@ main::-webkit-scrollbar {
   background-color: #2d6a4f;
   border: none;
 }
+
+.page-number {
+  color: black;
+  margin-bottom: 10px;
+}
