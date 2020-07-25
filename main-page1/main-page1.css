@@ -11,7 +11,7 @@ main {
     position: absolute;
     /* max-width: 1440px; */
     width: 100%;
-    height: 3284px;
+    height: 4309px;
     left: 0px;
     top: 0px;
 }
@@ -391,8 +391,8 @@ main {
 /* footer */
 .footer-main-container {
     width: 100%;
-    height: 1024px;
-    background-color: orangered;
+    height: 1300px;
+    /* background-color: orangered; */
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -400,16 +400,23 @@ main {
 }
 .footer-container-div {
     width: 100%;
-    height: 825px;
+    height: 970px;
     background-color: #0d1613;
 }
-.footer-container {
-    background-color: blue;
+.footer-container-primary {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: purple; */
+    height: 650px;
+}
+.footer-container-secondary {
+    /* background-color: blue; */
 }
 .footer-logo-div {
     width: 141px;
     height: 58px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .footer-logo-a {
     text-decoration: none;
@@ -424,12 +431,149 @@ main {
 .footer-info-div {
     width: 295px;
     height: 55.22px;
-    background-color: orchid;
+    /* background-color: orchid; */
 }
 .footer-info-p {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.footer-img {
+    width: 575px;
+    height: 443px;
+}
+.footer-contact-details {
+    width: 100%;
+    height: 200px;
+    /* background-color: red; */
+}
+.contact-method {
+    height: 37px;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-details {
+    height: 37px;
+    display: flex;
+    justify-content: space-around;
+}
+.talk-div {
+    width: 64px;
+    height: 37px;
+    position: relative;
+    left: 1px;
+}
+.talk-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.talk-details-div {
+    width: 230px;
+    height: 37px;
+    position: relative;
+    left: 17px;
+}
+.talk-details-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.whatsapp-div {
+    width: 104px;
+    height: 28px;
+    position: relative;
+    right: 29px;
+}
+.whatsapp-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.whatsapp-details-div {
+    width: 169px;
+    height: 28px;
+    position: relative;
+    left: 14px;
+}
+.whatsapp-details-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.write-div {
+    width: 59px;
+    height: 28px;
+    position: relative;
+    right: 12px;
+}
+.write-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.write-details-div {
+    width: 287px;
+    height: 28px;
+    position: relative;
+    left: 36px;
+}
+.write-details-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #e5e5e5;
+}
+.footer-ending-div-container {
+    height: 120px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+}
+.footer-ending-div {
+    width: 400px;
+    height: 28px;
+}
+.footer-ending-span {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.02em;
