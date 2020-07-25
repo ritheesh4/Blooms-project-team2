@@ -90,28 +90,12 @@ nav {
   display: flex;
 }
 
-/* main {
+main {
   margin-top: 45px;
   margin-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 78px;
-} */
-
-main {
-  display: flex;
-  width: 100%;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  max-width: 1400px;
-  max-height: 700px;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
-  grid-gap: 78px;
-  margin-bottom: 29px;
-  scrollbar-width: none;
-  scroll-behavior: smooth;
 }
 
 main::-webkit-scrollbar {
@@ -229,28 +213,4 @@ main::-webkit-scrollbar {
   height: 37px;
   background-color: #2d6a4f;
   border: none;
-}
-
-.carousel {
-  width: 1248px;
-  height: 5px;
-  background: #e5e5e5;
-  border-radius: 3px;
-  margin-bottom: 15px;
-}
-
-.nav-arrow-right {
-  position: absolute;
-  margin-left: 90%;
-}
-
-.nav-arrow-left {
-  position: absolute;
-  margin-right: 90%;
-  transform: rotate(180deg);
-}
-
-.page-number {
-  color: black;
-  margin-bottom: 10px;
 }
