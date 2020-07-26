@@ -32,6 +32,7 @@
   margin-bottom: 29px;
   scrollbar-width: none;
   scroll-behavior: smooth;
+  padding-top: 90px;
 }
 
 .scroll-view::-webkit-scrollbar {

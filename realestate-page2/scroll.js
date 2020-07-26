@@ -1,4 +1,4 @@
-/*Here, the UI data of the cards are placed intially by loading the json file named plot-data and 
+/*Here, the UI data of the cards are placed intially by loading the json file named plot-data and
 there will be scrolling window which could be controlled by two buttons*/
 
 /*Initially, the left arrow would be disabled and when the right arrow clicked, the left arrow appears.
@@ -35,6 +35,7 @@ const rightArrowStatus = () => {
     carouselProgress.style = `width:33.3%; margin-left:${
       33.33 * rightClick
     }%;transition: all 700ms;`;
+
   }
 };
 
