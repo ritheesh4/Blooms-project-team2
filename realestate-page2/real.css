@@ -165,6 +165,9 @@ body{
 
 .real-forest-toor{
     padding: 90px 100px 80px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .real-video-image img {
@@ -174,12 +177,16 @@ body{
     /* top: 1131px; */
 }
 
+/* .real-video-inside-forest-2{
+    position: relative;
+}
+
 .real-circle-draw-2 {
     position: absolute;
     left: 140px;
     bottom: 120px;
 
-}
+} */
 
 .round-button-2 {
 	box-sizing: border-box;
@@ -201,16 +208,6 @@ body{
     opacity: .8;
 }
 
-.real-video-inside-forest-2{
-    position: relative;
-}
-
-.real-circle-draw-2 {
-    left: 570px;
-    right: 570px;
-    /* top: 30.5%; */
-    bottom: 380px
-}
 
 .real-top-properties {
 
@@ -237,7 +234,7 @@ body{
     color: #2D6A4F;
     text-align: center;
     position: relative;
-    bottom: 10px;
+    bottom: -7px;
 }
 
 .real-see-projects {
@@ -367,4 +364,10 @@ body{
     text-align: center;
     letter-spacing: 0.02em;
     color: #E5E5E5;
+}
+
+.real-about-us-image-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
