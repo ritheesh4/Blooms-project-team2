@@ -7,6 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="styles.css" />
   <title>Project Listing</title>
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+
+    .location:hover .dropdown-content {
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
@@ -45,29 +65,42 @@
     </nav> -->
 
   <nav>
+
     <div class="home">Home</div>
     <div class="filter-container">
       <div class="filters">
-        <div class="location" id="location">Location<svg width="15" height="8" viewBox="0 0 15 8" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
-                fill="#2D6A4F" />
-            </svg>
+
+        <div class="location" id="location"> <span style="z-index: 2;">Location</span><svg width="15" height="8"
+            viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
+              fill="#2D6A4F" />
+          </svg></span></span>
+          <ul class="drop-dwn">
+            <li>Wayanad <input type="checkbox" style="float:right;cursor: pointer;border-radius: 50%;"> </li>
+            <li>Bangalore<input type="checkbox" style="float:right"></li>
+            <li>Ernakulam<input type="checkbox" style="float:right"></li>
+            <li>iddukki<input type="checkbox" style="float:right"></li>
+            <li>sadf<input type="checkbox" style="float:right"> </li>
+            <li>sadf<input type="checkbox" style="float:right; border-radius: 4px;"></li>
+          </ul>
+
+
         </div>
+
         <div class="project-model" id="projectModel">Project Model<svg width="15" height="8" viewBox="0 0 15 8"
-              fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
-                fill="#2D6A4F" />
-            </svg>
+            fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
+              fill="#2D6A4F" />
+          </svg></span></span>
         </div>
-        <div class="status" id="status">Status<svg width="15" height="8" viewBox="0 0 15 8" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
-                fill="#2D6A4F" />
-            </svg>
+        <div class="status" id="status">Status <span></span><svg width="15" height="8" viewBox="0 0 15 8" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M6.55646 7.72701L0.323125 2.46079C-0.107708 2.09681 -0.107708 1.50823 0.323125 1.14811L1.35896 0.272991C1.78979 -0.0909971 2.48646 -0.0909971 2.91271 0.272991L7.33104 4.00581L11.7494 0.272991C12.1802 -0.0909971 12.8769 -0.0909971 13.3031 0.272991L14.339 1.14811C14.7698 1.5121 14.7698 2.10068 14.339 2.46079L8.10563 7.72701C7.68396 8.091 6.98729 8.091 6.55646 7.72701Z"
+              fill="#2D6A4F" />
+          </svg></span></span>
         </div>
       </div>
     </div>
