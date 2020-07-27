@@ -27,7 +27,7 @@ body {
   color: #2d6a4f;
 }
 
-.page-title {
+/* .page-title {
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -88,6 +88,66 @@ nav {
 .location-icon {
   margin-right: 25px;
   display: flex;
+} */
+
+nav {
+  display: flex;
+  width: 100%;
+  margin-top: 130px;
+  min-height: 40px;
+  height: 100%;
+  max-width: 1250px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.home {
+  flex: 1;
+  margin: auto;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.filter-container {
+  flex: 2.5;
+}
+
+.filters {
+  display: flex;
+  max-width: 526px;
+  width: 100%;
+  min-height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters div {
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 40px;
+  padding: 0 3%;
+}
+
+.location {
+  max-width: 157px;
+  width: 100%;
+}
+
+.project-model {
+  max-width: 201px;
+  width: 100%;
+}
+
+.status {
+  max-width: 124px;
+  width: 100%;
 }
 
 main {
@@ -95,7 +155,11 @@ main {
   margin-bottom: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 78px;
+  justify-content: space-between;
+  grid-row-gap: 80px;
+  max-width: 1248px;
+  width: 100%;
+  height: 100%;
 }
 
 main::-webkit-scrollbar {
@@ -108,14 +172,24 @@ main::-webkit-scrollbar {
   flex-direction: column;
   padding: 0px;
   max-width: 364px;
-  max-height: 633px;
+  min-height: 633px;
+  width: 100%;
   background-color: #ffffff;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.07);
 }
 
 .img-container {
-  width: 364px;
-  height: 364px;
+  max-width: 364px;
+  max-height: 364px;
+  width: 100%;
+  height: 100%;
+}
+
+.plot-image {
+  max-width: 364px;
+  max-height: 364px;
+  width: 100%;
+  height: 100%;
 }
 
 .details-container {
@@ -144,7 +218,8 @@ main::-webkit-scrollbar {
 
 .progress-bar {
   margin-left: 10px;
-  width: 147px;
+  max-width: 147px;
+  width: 100%;
   height: 6px;
   border-radius: 3px;
   background: #e5e5e5;
@@ -169,10 +244,12 @@ main::-webkit-scrollbar {
 .availability-count {
   display: flex;
   margin-left: 7px;
+  width: 100%;
 }
 
 .a-count {
-  width: 17px;
+  max-width: 17px;
+  width: 100%;
   height: 6px;
   background: #e5e5e5;
   border-radius: 3px;
@@ -191,8 +268,10 @@ main::-webkit-scrollbar {
 }
 
 .project-details-btn {
-  width: 170px;
-  height: 37px;
+  max-width: 170px;
+  min-height: 37px;
+  width: 100%;
+  height: 100%;
   font-size: 14px;
   line-height: 16px;
   color: #2d6a4f;

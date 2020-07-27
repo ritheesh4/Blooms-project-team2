@@ -11,11 +11,9 @@ const loadPlotData = (e) => {
         data.forEach((element) => {
           mainBody.innerHTML += `<div class="card" id="${element.id}">
           <div class="img-container">
-            <img
-              width="364"
-              height="364"
+            <img style = "min-height:356px"
               src="${element.image}"
-              alt=""
+              class ="plot-image"
             />
           </div>
           <div class="details-container">
