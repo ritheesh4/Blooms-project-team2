@@ -7,15 +7,22 @@
 body{
     height: 100vh;
     cursor: grab;
+    right: 0;
+    padding-right: 0px;
+    margin-right: 0px;
+    left: 0;
+    width: 100%;
 }
 
 .real-bg-container {
     background-image: url("img/imageghat.PNG");
-    max-width: 100%;
+    max-width: 1903px;
+    width: 100%;
     height: 920px;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: cover;
+    right: 0;
 }
 
 .real-bg-text{
@@ -89,7 +96,8 @@ body{
 }
 
 .real-small-para {
-    width: 576px;
+    max-width: 576px;
+    width: 100%;
     height: 296px;
     left: 194px;
     top: 586px;
@@ -104,6 +112,11 @@ body{
 .real-video-conatiner{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    /* justify-content: space-around;
+    padding-right: 250px;
+    margin-right: 50px; */
 }
 
 .real-image-video img {
@@ -111,6 +124,8 @@ body{
     height: 289px;
     left: 874px;
     top: 542px;
+
+
 }
 
 .real-image-video{
@@ -173,20 +188,20 @@ body{
 .real-video-image img {
     max-width: 1140px;
     height: 810px;
-    left: 150px;
+    left: 250px;
     /* top: 1131px; */
 }
 
-/* .real-video-inside-forest-2{
+.real-video-inside-forest-2{
     position: relative;
 }
 
 .real-circle-draw-2 {
     position: absolute;
-    left: 140px;
-    bottom: 120px;
+    left: 536px;
+    bottom: 377px;
 
-} */
+}
 
 .round-button-2 {
 	box-sizing: border-box;
