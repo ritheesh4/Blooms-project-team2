@@ -273,3 +273,9 @@ main::-webkit-scrollbar {
   margin-bottom: 10px;
 }
 
+input[type="checkbox"]{
+  float:right;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid black;
+}
