@@ -12,7 +12,7 @@
     {
         "id": 2,
         "plot": "Breeze",
-        "place": "Wayanad, Kerala",
+        "place": "Idukki, Kerala",
         "community": "Self Sufficient Community Living",
         "legalPercentage": 50,
         "availabilityCount": 2,
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "plot": "Dew",
-        "place": "Wayanad, Kerala",
+        "place": "Ernakulam, Kerala",
         "community": "Self Sufficient Community Living",
         "legalPercentage": 80,
         "availabilityCount": 2,
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "plot": "Echo",
-        "place": "Wayanad, Kerala",
+        "place": "Trissur, Kerala",
         "community": "Self Sufficient Community Living",
         "legalPercentage": 50,
         "availabilityCount": 2,
@@ -72,7 +72,7 @@
     {
         "id": 8,
         "plot": "Breeze",
-        "place": "Wayanad, Kerala",
+        "place": "Kozhikod, Kerala",
         "community": "Self Sufficient Community Living",
         "legalPercentage": 40,
         "availabilityCount": 2,
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "plot": "Dew",
+        "plot": "Dww",
         "place": "Wayanad, Kerala",
         "community": "Self Sufficient Community Living",
         "legalPercentage": 80,
