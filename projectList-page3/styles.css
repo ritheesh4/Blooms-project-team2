@@ -78,21 +78,34 @@ nav {
   max-width: 157px;
   width: 100%;
   border-bottom: none;
+  position: absolute;
+  right: 60%;
+  display: block;
+  background-color: white;
+  padding-bottom: 2px;
   /* display: flex;
   flex-direction: column; */
 }
 
+.location-text{
+  z-index: 2;display: flex;padding-top: 9%;
+}
+
 .project-model {
-  max-width: 201px;
+  max-width: 220px;
   width: 100%;
+  position: absolute;
+  right: 42%;
 }
 
 .status {
   max-width: 124px;
   width: 100%;
+  position: absolute;
+  right: 30%;
 }
 
-.drop-dwn{
+/* .drop-dwn{
   font-weight: 400;
   position: absolute;
   background-color: yellow;
@@ -116,11 +129,42 @@ nav {
   width: 100%;
   padding-right: 4px;
   
+} */
+
+
+.drop-dwn{
+display: none;
+flex-direction: column;
+position: relative;
+justify-content: space-around;
+width: 110px;
+padding-top: 5px;
 }
+
+.drop-dwn li{
+  padding-bottom: 5px;
+}
+
+
 
 
 .location:hover .drop-dwn{
   display: flex;
+  background-color: white;
+  z-index: 2;
+}
+
+.location:hover{
+  margin-top: 125px;
+}
+
+.location-arrow{
+  display: block;
+  padding-left: 4px;
+}
+
+.location:hover .location-arrow{
+  display: none;
 }
 
 
@@ -275,7 +319,14 @@ main::-webkit-scrollbar {
 
 input[type="checkbox"]{
   float:right;
+  width: 1.2em;
+  height: 1.2em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none; 
+  outline: none;
   cursor: pointer;
-  border-radius: 20px;
-  border: 1px solid black;
 }
+

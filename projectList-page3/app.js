@@ -1,4 +1,5 @@
 const mainBody = document.querySelector("main");
+const lcoationDropdownList = document.querySelector(".drop-dwn");
 let dataCopy = [];
 let fileterdArray = [];
 let selectedFilters = [];
@@ -13,11 +14,30 @@ const loadPlotData = () => {
       if (this.status === 200) {
         const data = JSON.parse(this.responseText);
         dataCopy = [...data];
+        locationDropdown();
         updateUI(data);
       }
     };
     xhr.send();
   } catch {}
+  
+  
+};
+
+// Update the location dropdown based on the locations available in the data
+const locationDropdown = () => {
+  let placesInData = [];
+  dataCopy.forEach((element)=>{
+    placesInData.push(element.place.substring(0,element.place.indexOf(',')))
+  });
+
+  const filteredLocations = (placesInData)=> {
+    return placesInData.filter((a, b) => placesInData.indexOf(a) === b)
+  }  
+
+  filteredLocations(placesInData).forEach((element) => {
+    lcoationDropdownList.innerHTML += ` <li>${element}<input type="checkbox" value="${element}" class="checkBox"></li>`
+  });
   checkBoxList();
 };
 
@@ -36,6 +56,9 @@ const filterAction = () => {
   checkBoxes.forEach((element) => {
     if (element.checked) {
       selectedFilters.push(element.value);
+      element.style = "background-color:green";
+    } else {
+      element.style = "background-color:white";
     }
   });
   if (selectedFilters.length === 0) {
