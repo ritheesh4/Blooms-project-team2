@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "plot": "Echo",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 30,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/f07d/f336/9882b022ff51029ad1234413a78c7037?Expires=1596412800&Signature=G0LbLQsdYW9KfDe4XS3hJp9ZGtYUbuHWLYuQkQ4HbC0CtgsI1K0lg5a0tVYfjyJVgA2UTdATYWlzqS8ZFjopB89AtAYB1ro5xvfWi1Nnmh7kL6kC4nK4AXYJ1sIAHZMKKgdIPnoGVbC7U7K2eQpt~PftHujPf1fV~WjgopEJUv4b4ii2vvGX8lHHK6ecFB0t0fsCJAoldBd-ACvtoRtAQwufq3j8pVqOkNboUcGohKOCCrOZftfy1DSKDjcgnv~of0tqklKLLC2FFMCJiU3l-eCsmJhVMqc4jw9rpPN2cS3EywBJE1te-qkBst0V2HbK0dmF4ZY3lgiWM8g9IMdslg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 2,
+        "plot": "Breeze",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 50,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/e430/4d85/29d5d7bec6f7ec2a82ebb267b48f71e1?Expires=1596412800&Signature=VrBZkuiARrTe7elkysJHAcIpgdq9TMnAinN3comoU0PX8Lt~5qeYJL0hzJ8takO1r5bf5pMlypOhDr6YegJhPymdJF~mK0M~ixyvpQsoPujZuHkrR2AE-kyrfudduEMM7RxGHIXH2JLZqk1iHL3fTsOd3dot45wTC7DE4GCpNgwfD9hw5BKyoY73T9hmGHa2va6OVOYzjKC5pZnEEdiiozhXintOI-bFBTfDyghqJwQ5aRRIf8bN38h14VhjDR-F1bLDbap7QtNXbnHsViEkR5Fu7eBzZSom-SgU7XjV-3YKowVmf-rAlrGNaI0xsqygOw6Hqu5Pcf~VZnr4YioCWg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 3,
+        "plot": "Dew",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 80,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/8fc1/4522/d205dc800bbeb2002d3e31a9a563d4b3?Expires=1596412800&Signature=JMl8z~Npur62OJKTMoCIvb5H8LROvkkD2w1exMZIYsg0D0j-VEEWXJrpET6Bn7ouj30sbIbcln-8pne4KYFXbgh3jO2~BiaXGYC4rNAhANodpe1S~TZqLLZT~qCcO1RobIcHacvHB15mkuHZ3XYF8fIeQAhCvaDsXIsOa~BZeF9xvtutllDFbwsiuYrZyyjqxRYQCoWX6WwEQwrV41YBz3CP41dw~WPSNyvWbCkHd6tpwGeeyzj9lyAHiTkWZ3AbYFz5TL0yBC2MxAMH6RyZCMRaRRSR~Yv7BJ4kK2sGOHHFiHUChXXSbas05Il42pPw0pDPKVG8KioLR2jljIaeog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 2,
+        "plot": "Echo",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 50,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/f07d/f336/9882b022ff51029ad1234413a78c7037?Expires=1596412800&Signature=G0LbLQsdYW9KfDe4XS3hJp9ZGtYUbuHWLYuQkQ4HbC0CtgsI1K0lg5a0tVYfjyJVgA2UTdATYWlzqS8ZFjopB89AtAYB1ro5xvfWi1Nnmh7kL6kC4nK4AXYJ1sIAHZMKKgdIPnoGVbC7U7K2eQpt~PftHujPf1fV~WjgopEJUv4b4ii2vvGX8lHHK6ecFB0t0fsCJAoldBd-ACvtoRtAQwufq3j8pVqOkNboUcGohKOCCrOZftfy1DSKDjcgnv~of0tqklKLLC2FFMCJiU3l-eCsmJhVMqc4jw9rpPN2cS3EywBJE1te-qkBst0V2HbK0dmF4ZY3lgiWM8g9IMdslg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 5,
+        "plot": "Breeze",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 90,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/e430/4d85/29d5d7bec6f7ec2a82ebb267b48f71e1?Expires=1596412800&Signature=VrBZkuiARrTe7elkysJHAcIpgdq9TMnAinN3comoU0PX8Lt~5qeYJL0hzJ8takO1r5bf5pMlypOhDr6YegJhPymdJF~mK0M~ixyvpQsoPujZuHkrR2AE-kyrfudduEMM7RxGHIXH2JLZqk1iHL3fTsOd3dot45wTC7DE4GCpNgwfD9hw5BKyoY73T9hmGHa2va6OVOYzjKC5pZnEEdiiozhXintOI-bFBTfDyghqJwQ5aRRIf8bN38h14VhjDR-F1bLDbap7QtNXbnHsViEkR5Fu7eBzZSom-SgU7XjV-3YKowVmf-rAlrGNaI0xsqygOw6Hqu5Pcf~VZnr4YioCWg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 6,
+        "plot": "Dew",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 100,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/8fc1/4522/d205dc800bbeb2002d3e31a9a563d4b3?Expires=1596412800&Signature=JMl8z~Npur62OJKTMoCIvb5H8LROvkkD2w1exMZIYsg0D0j-VEEWXJrpET6Bn7ouj30sbIbcln-8pne4KYFXbgh3jO2~BiaXGYC4rNAhANodpe1S~TZqLLZT~qCcO1RobIcHacvHB15mkuHZ3XYF8fIeQAhCvaDsXIsOa~BZeF9xvtutllDFbwsiuYrZyyjqxRYQCoWX6WwEQwrV41YBz3CP41dw~WPSNyvWbCkHd6tpwGeeyzj9lyAHiTkWZ3AbYFz5TL0yBC2MxAMH6RyZCMRaRRSR~Yv7BJ4kK2sGOHHFiHUChXXSbas05Il42pPw0pDPKVG8KioLR2jljIaeog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },  
+     {
+        "id": 7,
+        "plot": "Echo",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 50,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/f07d/f336/9882b022ff51029ad1234413a78c7037?Expires=1596412800&Signature=G0LbLQsdYW9KfDe4XS3hJp9ZGtYUbuHWLYuQkQ4HbC0CtgsI1K0lg5a0tVYfjyJVgA2UTdATYWlzqS8ZFjopB89AtAYB1ro5xvfWi1Nnmh7kL6kC4nK4AXYJ1sIAHZMKKgdIPnoGVbC7U7K2eQpt~PftHujPf1fV~WjgopEJUv4b4ii2vvGX8lHHK6ecFB0t0fsCJAoldBd-ACvtoRtAQwufq3j8pVqOkNboUcGohKOCCrOZftfy1DSKDjcgnv~of0tqklKLLC2FFMCJiU3l-eCsmJhVMqc4jw9rpPN2cS3EywBJE1te-qkBst0V2HbK0dmF4ZY3lgiWM8g9IMdslg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 8,
+        "plot": "Breeze",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 40,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/e430/4d85/29d5d7bec6f7ec2a82ebb267b48f71e1?Expires=1596412800&Signature=VrBZkuiARrTe7elkysJHAcIpgdq9TMnAinN3comoU0PX8Lt~5qeYJL0hzJ8takO1r5bf5pMlypOhDr6YegJhPymdJF~mK0M~ixyvpQsoPujZuHkrR2AE-kyrfudduEMM7RxGHIXH2JLZqk1iHL3fTsOd3dot45wTC7DE4GCpNgwfD9hw5BKyoY73T9hmGHa2va6OVOYzjKC5pZnEEdiiozhXintOI-bFBTfDyghqJwQ5aRRIf8bN38h14VhjDR-F1bLDbap7QtNXbnHsViEkR5Fu7eBzZSom-SgU7XjV-3YKowVmf-rAlrGNaI0xsqygOw6Hqu5Pcf~VZnr4YioCWg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    },
+    {
+        "id": 9,
+        "plot": "Dew",
+        "place": "Wayanad, Kerala",
+        "community": "Self Sufficient Community Living",
+        "legalPercentage": 80,
+        "availabilityCount": 2,
+        "projectStatus": "Customer Aquisition",
+        "image": "https://s3-alpha-sig.figma.com/img/8fc1/4522/d205dc800bbeb2002d3e31a9a563d4b3?Expires=1596412800&Signature=JMl8z~Npur62OJKTMoCIvb5H8LROvkkD2w1exMZIYsg0D0j-VEEWXJrpET6Bn7ouj30sbIbcln-8pne4KYFXbgh3jO2~BiaXGYC4rNAhANodpe1S~TZqLLZT~qCcO1RobIcHacvHB15mkuHZ3XYF8fIeQAhCvaDsXIsOa~BZeF9xvtutllDFbwsiuYrZyyjqxRYQCoWX6WwEQwrV41YBz3CP41dw~WPSNyvWbCkHd6tpwGeeyzj9lyAHiTkWZ3AbYFz5TL0yBC2MxAMH6RyZCMRaRRSR~Yv7BJ4kK2sGOHHFiHUChXXSbas05Il42pPw0pDPKVG8KioLR2jljIaeog__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+    }
+]
