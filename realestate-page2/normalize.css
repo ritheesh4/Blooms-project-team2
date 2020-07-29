@@ -24,6 +24,11 @@ body {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
